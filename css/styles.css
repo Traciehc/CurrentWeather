@@ -16,6 +16,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
 }
 
 input, button {
@@ -28,6 +29,5 @@ input, button {
 #weatherResult {
     margin-top: 20px;
 }
-
 
 
