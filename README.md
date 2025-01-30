@@ -13,14 +13,15 @@ This is a simple weather application that fetches and displays weather data for 
     ```
     cd CurrentWeather
     ```
+3.  Obtain API KEY and vertify your email at https://home.openweathermap.org/ . Note your email must be verified before the API Key will function.
 
-3. Open `app.js` and replace `'YOUR_API_KEY'` with your actual API key from OpenWeather:
+4. Open `app.js` and replace `'YOUR_API_KEY'` with your actual API key from OpenWeather:
     ```javascript
     const apiKey = 'YOUR_ACTUAL_API_KEY';
     ```
 
-4. Open `index.html` in your browser to run the application.
+5. Open `index.html` in your browser to run the application.
 
 ### Usage
 
-- Enter a city name in the input field and click "Get Weather" to fetch and display the current weather data for that city.
+- Enter a city name (only) in the input field and click "Get Weather" to fetch and display the current weather data for that city.
